@@ -1,5 +1,5 @@
 
-# 🚀 CUDA Image Filtering Project — Professional Documentation
+# 🚀 CUDA Image Filtering 
 
 This project implements **high‑performance image filtering** using **NVIDIA CUDA**, benchmarking it against a traditional **CPU implementation**.  
 It demonstrates massive GPU speedups (100×–380×) using real‑world image processing workloads.
@@ -171,8 +171,7 @@ Ensures GPU output matches CPU output (within numerical tolerance).
 
 # 👨‍💻 Author
 
-Developed by **Mahi**  
-CUDA optimization guidance by ChatGPT
+Developed by **Jainwin Boys**  
 
 ---
 
