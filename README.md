@@ -137,17 +137,6 @@ GPU execution is consistently **100×–380× faster**.
 
 ---
 
-# 📈 Visual Graphs
-
-Program includes:
-- CPU vs GPU Time (Log Scale)
-- Dual‑Axis Comparison Graph
-- Speedup Curve
-
-These graphs visually confirm the GPU’s massive performance advantage.
-
----
-
 # 🧪 Verification
 
 Every output undergoes pixel‑wise comparison:
