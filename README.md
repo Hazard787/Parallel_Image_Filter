@@ -73,7 +73,8 @@ PP Project Final/
 ### ✅ Method 1 — Using NVCC directly (with MSVC compiler)
 
 ```sh
-nvcc main.cu -o app.exe --compiler-bindir "C:\Program Files (x86)\Microsoft Visual Studio\<VERSION>\BuildTools\VC\Tools\MSVC\<VERSION>\bin\Hostx64\x64"
+nvcc main.cu -o app.exe --compiler-bindir "nvcc -std=c++17 main.cu -o app.exe --compiler-bindir "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64"
+"
 ```
 
 Replace `<VERSION>` with your actual MSVC version.
@@ -97,17 +98,7 @@ app.exe input.png output.png
 ### Program Flow:
 
 1. Loads the image
-2. Prompts for filter selection:
 
-```
-Choose filter:
-1. Gaussian Blur
-2. Box Blur
-3. Sharpen
-4. Edge Detection
-5. Sobel X
-6. Sobel Y
-Enter choice:
 ```
 
 3. Runs CPU version
