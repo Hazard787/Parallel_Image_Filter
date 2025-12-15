@@ -73,11 +73,11 @@ PP Project Final/
 ### ✅ Method 1 — Using NVCC directly (with MSVC compiler)
 
 ```sh
-nvcc main.cu -o app.exe --compiler-bindir "nvcc -std=c++17 main.cu -o app.exe --compiler-bindir "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64"
+nvcc -std=c++17 main.cu -o app.exe --allow-unsupported-compiler
+
 "
 ```
 
-Replace `<VERSION>` with your actual MSVC version.
 
 ### ✅ Method 2 — Using Visual Studio Developer Command Prompt
 
@@ -92,7 +92,7 @@ nvcc main.cu -o app.exe
 ### Basic command:
 
 ```sh
-app.exe input.png output.png
+app.exe input.png results
 ```
 
 ### Program Flow:
